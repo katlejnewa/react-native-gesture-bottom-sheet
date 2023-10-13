@@ -28,6 +28,7 @@ declare class BottomSheet extends Component<
   createPanResponder(props: { height: number }): void;
   show(): void;
   close(): void;
+  setHeight(): void;
   render(): JSX.Element;
 }
 export default BottomSheet;
